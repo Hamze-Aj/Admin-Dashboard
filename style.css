@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-style: ro;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 110px 500px;
+}
+
+
+
+.sidebar{
+    background-color: #1992D4;
+    color: white;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    align-items: center;
+    
+}
+
+ .sidebar svg {
+    height: 30px;
+    fill: white;
+ 
+}
+
+.wrap{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: white;
+    margin: 10px 10px 35px 10px;
+}
+.wrapsmall{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    margin-bottom: 16px;
+    margin-left: 17px;
+}
+
+.wrapsmall svg {
+    height: 15px;
+}
+
+#spec{
+    margin-top: 35px;
+}
+
+.wrap p {
+    font-weight: bold;
+    font-size: large;
+}
+
+.wrapsmall p{
+    font-weight: bolder;
+    font-size:medium;
+}
+
+.content{
+    background-color: #E2E8F0;
+
+}
+
+.header{
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    justify-content: space-around;
+    
+
+}
+.header svg{
+    height: 15px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input{
+    background-color: #E2E8F0;
+    border: none;
+    border-radius: 20px;
+    width: 370px;
+    height: 20px;
+}
+
+img{
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.one{
+    display: grid;
+    margin-top: 15px;
+    gap: 30px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.two{
+    margin-top: 17px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.imgsmall{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.imgsmall img{
+    width: 30px;
+    height: 30px;
+}
+
+button{
+    background-color: #1992D4;
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+    border-radius: 30px;
+    border: none;
+    width: 65px;
+    height: 25px;
+}
